@@ -1,0 +1,128 @@
+body{
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.clear{
+    clear: both;
+}
+
+.field-padrao{ 
+    margin: 30px auto;
+    border: 1px solid #fff;
+    width: 65%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #fff;
+    font-size: 20px;
+    line-height: 35px;
+    min-width: 870px;
+}
+legend{
+    background: #000;
+    font-weight: bold;
+    padding: 10px;
+    color: blue;
+    font-size: 35px;
+}
+
+
+input{
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    color: #434343;
+    text-align: center;
+}
+
+.select-padrao{
+    width: 250px;
+    border: none;
+    height: 35px;
+    border-radius: 3px;
+    color: #999;
+}
+
+.btn-padrao{
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #fff;
+    background:blue;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.carregamento-padrao{
+    width: 80%;
+    border: 1px solid #ccc;
+    color: #fff;
+    margin: 25px auto;
+    
+}
+
+
+
+.relatorio{
+    width: 76%;
+    margin: auto;
+    text-align: left;
+}
+.lb-tp{
+    margin-left: 45px;
+    color: red;
+}
+
+.lb-tc{
+    margin-left: 30px;
+    color: blue;
+}
+
+.lb-s{
+    margin-left: 55px;
+    color: red;
+}
+.lb-p{
+    margin-left: 105px;
+    color: blue;
+}
+
+.peso{
+    color: blue;
+}
+
+p{
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: -5px;
+    color: red;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
+.tc{
+    color: blue;
+}
+
+ul{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
+li{
+    text-decoration: none;
+    color: #fff;
+}
+li span{
+    color: blue;
+    margin-right: 20px;
+}

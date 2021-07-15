@@ -8,8 +8,27 @@ body{
     clear: both;
 }
 
+.topo{
+    height: 100px;
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    line-height: 100px;
+    background-color: rgba(204, 204, 204, 0.2);
+    border-radius: 10px;
+    
+}
+
+.titulo{
+    margin: auto;
+    color: #fff;
+    
+}
+
+
 .field-padrao{ 
-    margin: 30px auto;
+    margin: 35px auto;
     border: 1px solid #fff;
     width: 65%;
     color: #fff;
@@ -75,8 +94,10 @@ input{
     text-align: left;
 }
 .lb-tp{
+    
     margin-left: 45px;
     color: red;
+   
 }
 
 .lb-tc{
@@ -113,10 +134,15 @@ p{
     color: blue;
 }
 
+
+
 ul{
+    margin: 30px auto;
     text-decoration: none;
     color: #fff;
     list-style: none;
+    
+    width: 75%;
 }
 li{
     text-decoration: none;
@@ -125,4 +151,55 @@ li{
 li span{
     color: blue;
     margin-right: 20px;
+}
+
+.ul-li-produto{
+    border: none;
+    font-size: 20px;
+    width: 60%;
+    text-align: left;
+    margin-left: -40px;
+    
+}
+
+.ul-li-quantidade{
+    border: none;
+    font-size: 20px;
+    width: 10%;
+    text-align: center;
+    
+}
+
+.btn-produto{
+    color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    background: #fff;
+    border: none; 
+    cursor: pointer;
+    margin-left:20px;
+}
+
+
+
+footer{
+    width: 100%;
+    display:flex;
+    
+    
+    
+}
+
+.footer{
+    text-align: center;
+    color: #fff;
+    line-height: 80px;
+    font-size: 10px;
+    
+}
+.logo-sistems{
+    width: 80px;
+    align-items: center;
 }

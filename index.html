@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>PROJETO 1</title>
+    <link rel="shortcut icon" href="endereço do icone" type="image/x-icon">
+    <title>PRODUÇÃO</title>
 </head>
 <body>
+    
     <fieldset id="cliente" class="field-padrao">
         <legend>CLIENTE</legend>
         <form action="" class="cliente" id="form-cliente">
@@ -23,12 +25,14 @@
             <button  id="btn-cliente" class="btn-padrao">OK</button>    
         </form>
     </fieldset>
-
+    
+   
+    
     <fieldset id="produto" class="field-padrao">
         <legend>PRODUTO</legend>
-        <form action="" class="cliente">
+        <form action="" class="cliente" id="form-produto">
             <label for="nome">Produto</label>
-            <select type="text" name="nome" id="nome-produto" class="select-padrao"><option value="">Escolha o Cliente...</option></select>    
+            <select type="text" name="nome" id="nome-produto" class="select-padrao"><option value="">Escolha o Produto...</option></select>    
 
             <label for="usuario">Quantidade</label>
             <input type="number" name="quantidade" id="quantidade">
@@ -56,13 +60,15 @@
             <p id="p" class="peso">XXX</p>
         </fieldset>
 
-        <ul id="ul-produto"></ul>
+        <ul id="ul-produto">
+           
+        </ul>
         <form action="" id="carregamento-produto" class="carregamento-padrao">
             
         </form>
 
     </fieldset>
-
+    <footer class="footer"><span>&copy;Todo os direitos reservados</span> <img class="logo-sistems" src="img/logosistems.png" alt=""></footer>
     <script src="./main.js"></script>
 </body>
 </html>
